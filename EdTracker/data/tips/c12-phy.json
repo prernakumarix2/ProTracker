@@ -1,0 +1,324 @@
+{
+  "subject": "c12-phy",
+  "subject_name": "Physics",
+  "subject_code": "042",
+  "session": "2026-27",
+  "scope": "CBSE Class XII Physics (042) 2026–27 written/theory Board-exam preparation; practical/internal-assessment material excluded.",
+  "weightage": [
+    {
+      "label": "Electrostatics (Ch 1–2)",
+      "ids": [
+        "c12-phy-01",
+        "c12-phy-02"
+      ],
+      "marks": "16"
+    },
+    {
+      "label": "Current Electricity + Magnetic Effects of Current and Magnetism (Ch 3–5)",
+      "ids": [
+        "c12-phy-03",
+        "c12-phy-04",
+        "c12-phy-05"
+      ],
+      "marks": "17"
+    },
+    {
+      "label": "Electromagnetic Induction, Alternating Currents, Electromagnetic Waves + Optics (Ch 6–10)",
+      "ids": [
+        "c12-phy-06",
+        "c12-phy-07",
+        "c12-phy-08",
+        "c12-phy-09",
+        "c12-phy-10"
+      ],
+      "marks": "18"
+    },
+    {
+      "label": "Dual Nature of Radiation and Matter + Atoms and Nuclei (Ch 11–13)",
+      "ids": [
+        "c12-phy-11",
+        "c12-phy-12",
+        "c12-phy-13"
+      ],
+      "marks": "12"
+    },
+    {
+      "label": "Electronic Devices (Ch 14)",
+      "ids": [
+        "c12-phy-14"
+      ],
+      "marks": "7"
+    }
+  ],
+  "note": "Official CBSE 2026-27 theory grouping: Electrostatics 16, Current Electricity + Magnetic Effects of Current and Magnetism 17, Electromagnetic Induction and Alternating Currents + Electromagnetic Waves + Optics 18, Dual Nature of Radiation and Matter + Atoms and Nuclei 12, Electronic Devices 7; total 70.",
+  "reference": [
+    {
+      "label": "Electric Charges and Fields — Tip 1",
+      "text": "Draw the field direction before substituting values; electric field is a vector."
+    },
+    {
+      "label": "Electric Charges and Fields — Tip 2",
+      "text": "Use superposition for multiple charges and keep signs/directions separate from magnitudes."
+    },
+    {
+      "label": "Electric Charges and Fields — Tip 3",
+      "text": "For Gauss-law questions, first identify the symmetry before choosing a Gaussian surface."
+    },
+    {
+      "label": "Electric Charges and Fields — Tip 4",
+      "text": "Distinguish electric flux from electric field; flux depends on field, area and angle."
+    },
+    {
+      "label": "Electrostatic Potential and Capacitance — Tip 1",
+      "text": "Potential is scalar, so add contributions algebraically."
+    },
+    {
+      "label": "Electrostatic Potential and Capacitance — Tip 2",
+      "text": "Keep the sign convention consistent when relating potential, work and potential energy."
+    },
+    {
+      "label": "Electrostatic Potential and Capacitance — Tip 3",
+      "text": "For capacitor combinations, decide series/parallel from the circuit connections before calculating equivalent capacitance."
+    },
+    {
+      "label": "Electrostatic Potential and Capacitance — Tip 4",
+      "text": "When a dielectric is inserted, identify whether the capacitor remains connected to the battery before deciding which quantities stay fixed."
+    },
+    {
+      "label": "Current Electricity — Tip 1",
+      "text": "Convert the circuit into a clear diagram before applying Kirchhoff's rules."
+    },
+    {
+      "label": "Current Electricity — Tip 2",
+      "text": "Keep current directions consistent; a negative solved current simply indicates the assumed direction was opposite."
+    },
+    {
+      "label": "Current Electricity — Tip 3",
+      "text": "Separate emf and terminal voltage when internal resistance is present."
+    },
+    {
+      "label": "Current Electricity — Tip 4",
+      "text": "For bridge problems, check the balance condition before doing unnecessary calculations."
+    },
+    {
+      "label": "Moving Charges and Magnetism — Tip 1",
+      "text": "Use the right-hand rule carefully for magnetic-field and force directions."
+    },
+    {
+      "label": "Moving Charges and Magnetism — Tip 2",
+      "text": "For a charged particle in a magnetic field, identify whether velocity is perpendicular, parallel or at an angle to B."
+    },
+    {
+      "label": "Moving Charges and Magnetism — Tip 3",
+      "text": "Keep radius, angular frequency and time period relations connected when solving circular-motion questions."
+    },
+    {
+      "label": "Moving Charges and Magnetism — Tip 4",
+      "text": "In galvanometer conversions, distinguish the required shunt resistance for an ammeter from the series resistance for a voltmeter."
+    },
+    {
+      "label": "Magnetism and Matter — Tip 1",
+      "text": "Keep B, H, M and magnetic susceptibility conceptually distinct."
+    },
+    {
+      "label": "Magnetism and Matter — Tip 2",
+      "text": "State the material type when discussing dia-, para- or ferromagnetism."
+    },
+    {
+      "label": "Magnetism and Matter — Tip 3",
+      "text": "Use the direction of magnetisation and applied field carefully in conceptual questions."
+    },
+    {
+      "label": "Magnetism and Matter — Tip 4",
+      "text": "Do not confuse magnetic dipole moment with magnetisation; magnetisation is moment per unit volume."
+    },
+    {
+      "label": "Electromagnetic Induction — Tip 1",
+      "text": "Apply Lenz's law to determine the direction of induced current before using Faraday's law."
+    },
+    {
+      "label": "Electromagnetic Induction — Tip 2",
+      "text": "Flux changes can come from changing B, area or orientation; identify what is changing."
+    },
+    {
+      "label": "Electromagnetic Induction — Tip 3",
+      "text": "Keep self-induction and mutual induction conceptually separate."
+    },
+    {
+      "label": "Electromagnetic Induction — Tip 4",
+      "text": "Check the sign of induced emf rather than using only its magnitude when direction is asked."
+    },
+    {
+      "label": "Alternating Current — Tip 1",
+      "text": "Convert peak values to RMS values only when the question requires effective values."
+    },
+    {
+      "label": "Alternating Current — Tip 2",
+      "text": "Compare XL and XC before deciding whether the circuit is net inductive or capacitive."
+    },
+    {
+      "label": "Alternating Current — Tip 3",
+      "text": "At resonance, XL=XC; then simplify the impedance and power-factor relations."
+    },
+    {
+      "label": "Alternating Current — Tip 4",
+      "text": "Track phase angle carefully; do not confuse current's phase with voltage's phase."
+    },
+    {
+      "label": "Electromagnetic Waves — Tip 1",
+      "text": "Focus on the properties, production and uses of electromagnetic waves rather than inventing unnecessary numerical formulas."
+    },
+    {
+      "label": "Electromagnetic Waves — Tip 2",
+      "text": "Remember that electromagnetic waves are transverse and do not require a material medium."
+    },
+    {
+      "label": "Electromagnetic Waves — Tip 3",
+      "text": "Keep the order of the electromagnetic spectrum and typical applications clear."
+    },
+    {
+      "label": "Electromagnetic Waves — Tip 4",
+      "text": "Distinguish displacement current and electromagnetic-wave concepts when answering conceptual questions."
+    },
+    {
+      "label": "Ray Optics and Optical Instruments — Tip 1",
+      "text": "Draw a ray diagram before applying the mirror or lens formula."
+    },
+    {
+      "label": "Ray Optics and Optical Instruments — Tip 2",
+      "text": "Use the CBSE Cartesian sign convention consistently for u, v, f and heights."
+    },
+    {
+      "label": "Ray Optics and Optical Instruments — Tip 3",
+      "text": "Check whether the question asks for magnification, image nature, position or power before choosing the relation."
+    },
+    {
+      "label": "Ray Optics and Optical Instruments — Tip 4",
+      "text": "For prism questions, identify the minimum-deviation condition before substituting."
+    },
+    {
+      "label": "Wave Optics — Tip 1",
+      "text": "Draw the Young's double-slit geometry before using fringe-width relations."
+    },
+    {
+      "label": "Wave Optics — Tip 2",
+      "text": "Distinguish path difference from fringe position."
+    },
+    {
+      "label": "Wave Optics — Tip 3",
+      "text": "Use constructive and destructive interference conditions with the correct integer form."
+    },
+    {
+      "label": "Wave Optics — Tip 4",
+      "text": "Keep wavelength, slit separation and screen distance in consistent units."
+    },
+    {
+      "label": "Dual Nature of Radiation and Matter — Tip 1",
+      "text": "Separate photon energy, work function and maximum kinetic energy in photoelectric-effect questions."
+    },
+    {
+      "label": "Dual Nature of Radiation and Matter — Tip 2",
+      "text": "Remember that intensity mainly affects photoelectric current, while frequency determines photon energy and threshold behaviour."
+    },
+    {
+      "label": "Dual Nature of Radiation and Matter — Tip 3",
+      "text": "Use stopping potential as an energy relation, not as a direct velocity formula."
+    },
+    {
+      "label": "Dual Nature of Radiation and Matter — Tip 4",
+      "text": "For de Broglie questions, identify whether momentum is given directly or must be obtained from kinetic energy."
+    },
+    {
+      "label": "Atoms — Tip 1",
+      "text": "Keep Bohr's postulates and the hydrogen-like atom formulae connected."
+    },
+    {
+      "label": "Atoms — Tip 2",
+      "text": "Check the principal quantum number n and nuclear charge Z before substituting."
+    },
+    {
+      "label": "Atoms — Tip 3",
+      "text": "Energy levels are negative for bound states; be careful with signs when calculating transitions."
+    },
+    {
+      "label": "Atoms — Tip 4",
+      "text": "Use the correct hydrogen-like assumption when applying the simple Bohr relations."
+    },
+    {
+      "label": "Nuclei — Tip 1",
+      "text": "Distinguish mass defect, binding energy and binding energy per nucleon."
+    },
+    {
+      "label": "Nuclei — Tip 2",
+      "text": "Keep atomic mass and nuclear mass conventions consistent in numerical problems."
+    },
+    {
+      "label": "Nuclei — Tip 3",
+      "text": "Use 931.5 MeV per atomic mass unit when converting mass defect in u to energy in MeV."
+    },
+    {
+      "label": "Nuclei — Tip 4",
+      "text": "For nuclear-reaction questions, check conservation of charge and nucleon number."
+    },
+    {
+      "label": "Semiconductor Electronics — Tip 1",
+      "text": "Identify whether the question concerns intrinsic/extrinsic semiconductors, p-n junctions or a diode application."
+    },
+    {
+      "label": "Semiconductor Electronics — Tip 2",
+      "text": "Keep forward bias and reverse bias conditions distinct."
+    },
+    {
+      "label": "Semiconductor Electronics — Tip 3",
+      "text": "Draw the relevant circuit or characteristic when the question involves a diode or rectifier."
+    },
+    {
+      "label": "Semiconductor Electronics — Tip 4",
+      "text": "Do not mix semiconductor-device terminology with the earlier electromagnetic chapters."
+    }
+  ],
+  "mistakes": [
+    "Unit/sign errors in numerical substitutions.",
+    "Using a formula without checking its physical conditions or assumptions.",
+    "Skipping the diagram in field, circuit, ray-optics and wave-optics questions.",
+    "Confusing vector direction with scalar magnitude.",
+    "Not writing the final answer with the correct SI unit."
+  ],
+  "order": [
+    "Start with Electrostatics (16 marks): Electric Charges and Fields → Electrostatic Potential and Capacitance.",
+    "Then Current Electricity and Magnetic Effects of Current and Magnetism (17 marks): Current Electricity → Moving Charges and Magnetism → Magnetism and Matter.",
+    "Then Electromagnetic Induction, Alternating Currents, Electromagnetic Waves and Optics (18 marks).",
+    "Then Dual Nature of Radiation and Matter, Atoms and Nuclei (12 marks).",
+    "Finish Electronic Devices (7 marks), then revise mixed numerical, derivation, diagram and conceptual questions."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Physics syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Physics_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ],
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": [
+      "Existing Class 12 EdTracker tips content supplied for this subject",
+      "CBSE 2026-27 official course structure"
+    ],
+    "changes": [
+      "Restructured chapter-level tips into the top-level 'reference' array used by the Class 10 Tips JSON.",
+      "Promoted common mistakes to the top-level 'mistakes' array and removed exact duplicates.",
+      "Added official 2026-27 unit weightage so the EdTracker Tips page can render 'Marks by unit'.",
+      "Added top-level study order and official resource links.",
+      "Preserved the existing chapter tip wording; no new coaching content was introduced."
+    ],
+    "validation": [
+      "14 chapter entries supplied in the source.",
+      "56 chapter tips preserved in the display-compatible reference list.",
+      "5 unique common-mistake entries preserved.",
+      "Theory weightage totals 70 marks."
+    ]
+  }
+}

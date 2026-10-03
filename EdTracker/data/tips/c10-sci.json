@@ -1,0 +1,139 @@
+{
+  "subject": "c10-sci",
+  "weightage": [
+    {
+      "label": "Unit I: Chemical Substances — board-assessed portion",
+      "ids": [
+        "c10-sci-01",
+        "c10-sci-03",
+        "c10-sci-04",
+        "c10-sci-05"
+      ],
+      "marks": "25"
+    },
+    {
+      "label": "Unit II: World of Living — board-assessed portion",
+      "ids": [
+        "c10-sci-06",
+        "c10-sci-07",
+        "c10-sci-08"
+      ],
+      "marks": "25"
+    },
+    {
+      "label": "Unit III: Natural Phenomena — board-assessed portion",
+      "ids": [
+        "c10-sci-11",
+        "c10-sci-12"
+      ],
+      "marks": "12"
+    },
+    {
+      "label": "Unit IV: Effects of Current — board-assessed portion",
+      "ids": [
+        "c10-sci-13",
+        "c10-sci-14"
+      ],
+      "marks": "13"
+    },
+    {
+      "label": "Unit V: Natural Resources",
+      "ids": [
+        "c10-sci-15"
+      ],
+      "marks": "5"
+    }
+  ],
+  "note": "Official 2026-27 annual-exam unit marks: Chemical Substances 25, World of Living 25, Natural Phenomena 12, Effects of Current 13, Natural Resources 5; total 80, internal assessment 20. Periodic Classification of Elements and Heredity and Evolution are not assessed in the year-end examination; Motor, Electromagnetic Induction and Electric Generator are assessed only formatively. The weightage section therefore maps only board-assessed chapters to the annual-exam units.",
+  "reference": [
+    {
+      "label": "Chemical equations",
+      "text": "Use the correct reactants/products and balance atoms on both sides. Identify combination, decomposition, displacement and double-displacement patterns from the reaction itself."
+    },
+    {
+      "label": "Oxidation and reduction",
+      "text": "At this level, remember oxidation as addition of oxygen/removal of hydrogen and reduction as removal of oxygen/addition of hydrogen; both occur together in a redox reaction."
+    },
+    {
+      "label": "Life processes",
+      "text": "For biology processes, learn the sequence and function: nutrition → respiration → transport → excretion. Pair every process with its key organ/structure and role."
+    },
+    {
+      "label": "Control and coordination",
+      "text": "Reflex arc: receptor → sensory neuron → relay neuron → motor neuron → effector. Distinguish nervous control from hormonal control."
+    },
+    {
+      "label": "Reproduction and heredity",
+      "text": "Keep a clear distinction between asexual and sexual reproduction, gamete formation, fertilisation and inheritance. For Mendelian monohybrid crosses, track genotype and phenotype separately.",
+      "assessment_note": "Heredity is formative-only for the 2026-27 year-end examination."
+    },
+    {
+      "label": "Light",
+      "text": "Use the mirror/lens sign convention consistently. Keep the mirror formula, lens formula, magnification and power relationships together and draw the ray diagram when useful."
+    },
+    {
+      "label": "Human eye",
+      "text": "Normal eye: near point ≈ 25 cm and far point at infinity. Understand accommodation as change in focal length to focus at different distances."
+    },
+    {
+      "label": "Electricity",
+      "text": "I = Q/t, V = W/Q, V = IR, R = ρl/A, series resistances add, parallel conductances add, P = VI = I²R = V²/R, and electrical energy E = Pt."
+    },
+    {
+      "label": "Magnetic effects",
+      "text": "For a current-carrying conductor, the force depends on magnetic field, current and conductor length; remember Fleming's left-hand rule for direction.",
+      "assessment_note": "Motor, electromagnetic induction and electric generator are formative-only."
+    },
+    {
+      "label": "Our Environment",
+      "text": "Energy flows Sun → producers → consumers; only a small fraction is transferred to the next trophic level. Distinguish biodegradable from non-biodegradable waste."
+    }
+  ],
+  "mistakes": [
+    "Chemical equations: balance atoms, preserve chemical formulas and write conditions/catalysts only where required.",
+    "Ray diagrams and electricity numericals: write the convention/formula first, substitute carefully and include units.",
+    "Biology: do not confuse structure, function and process; use labelled diagrams where they clarify the answer.",
+    "Heredity: keep genotype and phenotype separate and do not confuse dominant expression with frequency in a population.",
+    "Case-based and assertion-reason questions: test each statement against the scientific concept before selecting an option."
+  ],
+  "order": [
+    "Unit I: Chemical Substances (25 marks)",
+    "Unit II: World of Living (25 marks)",
+    "Unit IV: Effects of Current (13 marks): Electricity → Magnetic Effects",
+    "Unit III: Natural Phenomena (12 marks): Light → Human Eye",
+    "Unit V: Natural Resources (5 marks): Our Environment",
+    "Study formative-only chapters for school learning, but do not count them as annual-board marks."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Science syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ],
+  "_audit": {
+    "session": "2026-27",
+    "source_of_truth": "CBSE Class 10 Science 2026-27 syllabus",
+    "purpose": "Corrected Science study-tips dataset while preserving the existing EdTracker organization.",
+    "changes": [
+      "Corrected all annual-exam unit-to-chapter mappings to match the EdTracker Science chapter IDs.",
+      "Removed the incorrect claim that Acids, Bases and Salts, Metals and Non-metals, and Carbon and its Compounds are formative-only.",
+      "Excluded Periodic Classification of Elements and Heredity and Evolution from annual-board weightage mapping.",
+      "Kept Motor, Electromagnetic Induction and Electric Generator identified as formative-only.",
+      "Clarified the assessment status of Heredity within the reproduction and heredity reference tip.",
+      "Preserved the existing study tips and mistake-prevention guidance unless correction was required for assessment scope.",
+      "Added subject_name, subject_code, and session metadata to match the standardized Tips JSON contract."
+    ],
+    "scope_notes": [
+      "Weightage represents the official annual-examination unit marks.",
+      "Chapter IDs in the weightage section identify board-assessed EdTracker chapters only.",
+      "Formative-only topics remain useful for learning but are excluded from the 80-mark annual-board weightage."
+    ]
+  },
+  "subject_name": "Science",
+  "subject_code": "086",
+  "session": "2026-27"
+}
