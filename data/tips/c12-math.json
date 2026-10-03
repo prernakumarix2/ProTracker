@@ -1,0 +1,317 @@
+{
+  "subject": "c12-math",
+  "subject_name": "Mathematics",
+  "subject_code": "041",
+  "session": "2026-27",
+  "scope": "CBSE Class XII Mathematics (041) 2026–27 written/theory Board-exam preparation; internal assessment excluded.",
+  "weightage": [
+    {
+      "label": "Relations and Functions (Ch 1–2)",
+      "ids": [
+        "c12-math-01",
+        "c12-math-02"
+      ],
+      "marks": "8"
+    },
+    {
+      "label": "Algebra (Ch 3–4)",
+      "ids": [
+        "c12-math-03",
+        "c12-math-04"
+      ],
+      "marks": "10"
+    },
+    {
+      "label": "Calculus (Ch 5–9)",
+      "ids": [
+        "c12-math-05",
+        "c12-math-06",
+        "c12-math-07",
+        "c12-math-08",
+        "c12-math-09"
+      ],
+      "marks": "35"
+    },
+    {
+      "label": "Vectors and Three-Dimensional Geometry (Ch 10–11)",
+      "ids": [
+        "c12-math-10",
+        "c12-math-11"
+      ],
+      "marks": "14"
+    },
+    {
+      "label": "Linear Programming (Ch 12)",
+      "ids": [
+        "c12-math-12"
+      ],
+      "marks": "5"
+    },
+    {
+      "label": "Probability (Ch 13)",
+      "ids": [
+        "c12-math-13"
+      ],
+      "marks": "8"
+    }
+  ],
+  "note": "Official CBSE 2026-27 theory unit marks: Relations and Functions 8, Algebra 10, Calculus 35, Vectors and Three-Dimensional Geometry 14, Linear Programming 5, Probability 8; total 80, internal assessment 20.",
+  "reference": [
+    {
+      "label": "Relations and Functions — Tip 1",
+      "text": "Check domain, codomain and range before deciding whether a function is one-one or onto."
+    },
+    {
+      "label": "Relations and Functions — Tip 2",
+      "text": "Use the definition f(x1)=f(x2) => x1=x2 for one-one proofs."
+    },
+    {
+      "label": "Relations and Functions — Tip 3",
+      "text": "For composition, verify that the output of the inner function lies in the domain of the outer function."
+    },
+    {
+      "label": "Relations and Functions — Tip 4",
+      "text": "Do not assume an inverse exists; the function must be bijective for an inverse function."
+    },
+    {
+      "label": "Inverse Trigonometric Functions — Tip 1",
+      "text": "Write the principal-value range before simplifying an inverse-trigonometric expression."
+    },
+    {
+      "label": "Inverse Trigonometric Functions — Tip 2",
+      "text": "Treat sin^-1 x, cos^-1 x and tan^-1 x as inverse functions, not reciprocals."
+    },
+    {
+      "label": "Inverse Trigonometric Functions — Tip 3",
+      "text": "Check the sign and quadrant when using inverse-trigonometric identities."
+    },
+    {
+      "label": "Inverse Trigonometric Functions — Tip 4",
+      "text": "Do not drop principal-value restrictions when converting between inverse functions."
+    },
+    {
+      "label": "Matrices — Tip 1",
+      "text": "Check matrix orders before addition or multiplication."
+    },
+    {
+      "label": "Matrices — Tip 2",
+      "text": "Matrix multiplication is generally not commutative: AB and BA must be treated separately."
+    },
+    {
+      "label": "Matrices — Tip 3",
+      "text": "For an inverse, first check that the matrix is square and nonsingular."
+    },
+    {
+      "label": "Matrices — Tip 4",
+      "text": "Keep row and column positions consistent when computing products and transposes."
+    },
+    {
+      "label": "Determinants — Tip 1",
+      "text": "Use the correct cofactor sign pattern when expanding a determinant."
+    },
+    {
+      "label": "Determinants — Tip 2",
+      "text": "Before using A^-1 = adj(A)/|A|, verify that |A| is non-zero."
+    },
+    {
+      "label": "Determinants — Tip 3",
+      "text": "For area questions, take the absolute value of the determinant expression."
+    },
+    {
+      "label": "Determinants — Tip 4",
+      "text": "When solving AX=B by inverse matrices, verify that the coefficient matrix is invertible."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 1",
+      "text": "Check continuity using limit equals function value at the point."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 2",
+      "text": "Choose the differentiation rule from the structure: product, quotient, chain or implicit differentiation."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 3",
+      "text": "For inverse-trigonometric derivatives, preserve the correct denominator and sign."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 4",
+      "text": "In parametric differentiation, divide dy/dt by dx/dt; do not differentiate as if y were directly a function of x."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 1",
+      "text": "Find critical points from f'(x)=0 and also check points where f'(x) is undefined."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 2",
+      "text": "Use sign changes of f' to establish increasing or decreasing intervals."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 3",
+      "text": "For maxima/minima, verify the required conditions rather than stopping at f'(x)=0."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 4",
+      "text": "In rate-of-change problems, define the variables and their relationship before differentiating."
+    },
+    {
+      "label": "Integrals — Tip 1",
+      "text": "Always include +C with an indefinite integral."
+    },
+    {
+      "label": "Integrals — Tip 2",
+      "text": "Look for substitution when the derivative of an inner expression is also present."
+    },
+    {
+      "label": "Integrals — Tip 3",
+      "text": "Use integration by parts when the integrand is a suitable product."
+    },
+    {
+      "label": "Integrals — Tip 4",
+      "text": "For definite integrals, apply limits after obtaining the antiderivative."
+    },
+    {
+      "label": "Integrals — Tip 5",
+      "text": "Use even/odd symmetry and definite-integral properties before doing long calculations."
+    },
+    {
+      "label": "Applications of Integrals — Tip 1",
+      "text": "Sketch the curves or identify their intersection points before setting up an area integral."
+    },
+    {
+      "label": "Applications of Integrals — Tip 2",
+      "text": "Use upper minus lower when integrating with respect to x."
+    },
+    {
+      "label": "Applications of Integrals — Tip 3",
+      "text": "Split the interval when the upper/lower curve changes."
+    },
+    {
+      "label": "Applications of Integrals — Tip 4",
+      "text": "Use absolute area where the signed integral would otherwise cancel regions."
+    },
+    {
+      "label": "Differential Equations — Tip 1",
+      "text": "Identify whether the differential equation is separable, homogeneous or linear before starting."
+    },
+    {
+      "label": "Differential Equations — Tip 2",
+      "text": "For homogeneous equations, use y=vx and replace dy/dx accordingly."
+    },
+    {
+      "label": "Differential Equations — Tip 3",
+      "text": "For dy/dx + Py = Q, calculate the integrating factor before integrating."
+    },
+    {
+      "label": "Differential Equations — Tip 4",
+      "text": "Keep the arbitrary constant until the final step and apply any initial condition afterward."
+    },
+    {
+      "label": "Vector Algebra — Tip 1",
+      "text": "Check vector magnitude before forming a unit vector."
+    },
+    {
+      "label": "Vector Algebra — Tip 2",
+      "text": "Use the dot product for angles/projections and the cross product for perpendicular-area relationships."
+    },
+    {
+      "label": "Vector Algebra — Tip 3",
+      "text": "Remember that l^2+m^2+n^2=1 for direction cosines."
+    },
+    {
+      "label": "Vector Algebra — Tip 4",
+      "text": "Keep scalar and vector products distinct; their outputs are different types of quantities."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 1",
+      "text": "Extract direction ratios carefully from the vector or Cartesian equation of a line."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 2",
+      "text": "For the angle between lines, use their direction ratios."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 3",
+      "text": "For skew-line distance, keep the vector order consistent in the scalar triple-product expression."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 4",
+      "text": "Check whether lines are parallel, intersecting or skew before choosing the distance method."
+    },
+    {
+      "label": "Linear Programming — Tip 1",
+      "text": "Define the decision variables before writing constraints."
+    },
+    {
+      "label": "Linear Programming — Tip 2",
+      "text": "Translate every verbal condition into a linear inequality carefully."
+    },
+    {
+      "label": "Linear Programming — Tip 3",
+      "text": "Include non-negativity constraints when the variables represent quantities."
+    },
+    {
+      "label": "Linear Programming — Tip 4",
+      "text": "Evaluate the objective function at the relevant corner points of the feasible region."
+    },
+    {
+      "label": "Probability — Tip 1",
+      "text": "Write the events clearly before applying conditional probability."
+    },
+    {
+      "label": "Probability — Tip 2",
+      "text": "Check independence rather than assuming it from the wording."
+    },
+    {
+      "label": "Probability — Tip 3",
+      "text": "Use total probability when the sample space is partitioned into mutually exclusive exhaustive cases."
+    },
+    {
+      "label": "Probability — Tip 4",
+      "text": "For Bayes' theorem, identify the prior probabilities and the conditional probabilities before substituting."
+    }
+  ],
+  "mistakes": [
+    "Skipping domain/range restrictions.",
+    "Using a formula without checking its conditions.",
+    "Sign errors in derivatives, determinants and vector calculations.",
+    "Arithmetic mistakes caused by rushing the final simplification.",
+    "Writing only the final answer in long-form questions instead of showing the required steps."
+  ],
+  "order": [
+    "Start with Relations and Functions (8 marks): Relations and Functions → Inverse Trigonometric Functions.",
+    "Then Algebra (10 marks): Matrices → Determinants.",
+    "Give the largest study block to Calculus (35 marks): Continuity and Differentiability → Applications of Derivatives → Integrals → Applications of Integrals → Differential Equations.",
+    "Then Vectors and Three-Dimensional Geometry (14 marks): Vector Algebra → Three-Dimensional Geometry.",
+    "Finish Linear Programming (5 marks) and Probability (8 marks), then revise mixed questions."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Mathematics syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ],
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": [
+      "Existing Class 12 EdTracker tips content supplied for this subject",
+      "CBSE 2026-27 official course structure"
+    ],
+    "changes": [
+      "Restructured chapter-level tips into the top-level 'reference' array used by the Class 10 Tips JSON.",
+      "Promoted common mistakes to the top-level 'mistakes' array and removed exact duplicates.",
+      "Added official 2026-27 unit weightage so the EdTracker Tips page can render 'Marks by unit'.",
+      "Added top-level study order and official resource links.",
+      "Preserved the existing chapter tip wording; no new coaching content was introduced."
+    ],
+    "validation": [
+      "13 chapter entries supplied in the source.",
+      "53 chapter tips preserved in the display-compatible reference list.",
+      "5 unique common-mistake entries preserved.",
+      "Theory weightage totals 80 marks."
+    ]
+  }
+}

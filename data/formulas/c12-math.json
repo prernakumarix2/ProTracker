@@ -1,0 +1,1179 @@
+{
+  "subject": "c12-math",
+  "session": "2026-27",
+  "scope": "CBSE Class XII Mathematics (041) 2026–27 written/theory Board-exam preparation; internal assessment excluded.",
+  "chapters": [
+    {
+      "id": "c12-math-01",
+      "formulas": [
+        {
+          "label": "One-one function condition",
+          "tex": "f(x_1)=f(x_2)\\Rightarrow x_1=x_2",
+          "unit": ""
+        },
+        {
+          "label": "Onto function condition",
+          "tex": "\\operatorname{Range}(f)=\\operatorname{Codomain}(f)",
+          "unit": ""
+        },
+        {
+          "label": "Composition of functions",
+          "tex": "(g\\circ f)(x)=g(f(x))",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-function condition",
+          "tex": "f^{-1}\\circ f=I,\\quad f\\circ f^{-1}=I",
+          "unit": ""
+        },
+        {
+          "label": "Inverse of a composition",
+          "tex": "(g\\circ f)^{-1}=f^{-1}\\circ g^{-1}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse of identity function",
+          "tex": "I^{-1}=I",
+          "unit": ""
+        },
+        {
+          "label": "Range-domain relation for inverse",
+          "tex": "\\operatorname{Domain}(f^{-1})=\\operatorname{Range}(f),\\quad \\operatorname{Range}(f^{-1})=\\operatorname{Domain}(f)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-02",
+      "formulas": [
+        {
+          "label": "Principal inverse relations",
+          "tex": "\\sin(\\sin^{-1}x)=x,\\quad \\cos(\\cos^{-1}x)=x,\\quad \\tan(\\tan^{-1}x)=x",
+          "unit": ""
+        },
+        {
+          "label": "Reciprocal inverse relations",
+          "tex": "\\csc^{-1}x=\\sin^{-1}\\!\\left(\\frac1x\\right),\\quad \\sec^{-1}x=\\cos^{-1}\\!\\left(\\frac1x\\right),\\quad \\cot^{-1}x=\\tan^{-1}\\!\\left(\\frac1x\\right)",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value relation: sin^{-1}",
+          "tex": "\\sin^{-1}(-x)=-\\sin^{-1}x",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value relation: cos^{-1}",
+          "tex": "\\cos^{-1}(-x)=\\pi-\\cos^{-1}x",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value relation: tan^{-1}",
+          "tex": "\\tan^{-1}(-x)=-\\tan^{-1}x",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value identity: sin inverse",
+          "tex": "\\sin^{-1}x+\\cos^{-1}x=\\frac\\pi2",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value identity: tan inverse",
+          "tex": "\\tan^{-1}x+\\cot^{-1}x=\\frac\\pi2",
+          "unit": ""
+        },
+        {
+          "label": "Principal-value identity: sec inverse",
+          "tex": "\\sec^{-1}x+\\csc^{-1}x=\\frac\\pi2",
+          "unit": ""
+        },
+        {
+          "label": "Addition formula for tan inverse",
+          "tex": "\\tan^{-1}x+\\tan^{-1}y=\\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right)\\quad(xy<1)",
+          "unit": ""
+        },
+        {
+          "label": "Subtraction formula for tan inverse",
+          "tex": "\\tan^{-1}x-\\tan^{-1}y=\\tan^{-1}\\left(\\frac{x-y}{1+xy}\\right)\\quad(xy>-1)",
+          "unit": ""
+        },
+        {
+          "label": "Double-angle formula for tan inverse",
+          "tex": "2\\tan^{-1}x=\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\quad(|x|<1)",
+          "unit": ""
+        },
+        {
+          "label": "Cos inverse to sin inverse",
+          "tex": "\\cos^{-1}x=\\frac\\pi2-\\sin^{-1}x",
+          "unit": ""
+        },
+        {
+          "label": "Tan inverse to cot inverse",
+          "tex": "\\cot^{-1}x=\\frac\\pi2-\\tan^{-1}x",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-03",
+      "formulas": [
+        {
+          "label": "Matrix multiplication",
+          "tex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+          "unit": ""
+        },
+        {
+          "label": "Transpose",
+          "tex": "(A^T)^T=A",
+          "unit": ""
+        },
+        {
+          "label": "Transpose of a product",
+          "tex": "(AB)^T=B^TA^T",
+          "unit": ""
+        },
+        {
+          "label": "Symmetric matrix condition",
+          "tex": "A^T=A",
+          "unit": ""
+        },
+        {
+          "label": "Skew-symmetric matrix condition",
+          "tex": "A^T=-A",
+          "unit": ""
+        },
+        {
+          "label": "Inverse of a product",
+          "tex": "(AB)^{-1}=B^{-1}A^{-1}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse matrix condition",
+          "tex": "AA^{-1}=A^{-1}A=I",
+          "unit": ""
+        },
+        {
+          "label": "Scalar multiplication",
+          "tex": "(kA)_{ij}=ka_{ij}",
+          "unit": ""
+        },
+        {
+          "label": "Matrix addition",
+          "tex": "(A+B)_{ij}=a_{ij}+b_{ij}",
+          "unit": ""
+        },
+        {
+          "label": "Matrix scalar distributive law",
+          "tex": "k(A+B)=kA+kB",
+          "unit": ""
+        },
+        {
+          "label": "Matrix multiplication distributive law",
+          "tex": "A(B+C)=AB+AC,\\quad(A+B)C=AC+BC",
+          "unit": ""
+        },
+        {
+          "label": "Associativity of matrix multiplication",
+          "tex": "A(BC)=(AB)C",
+          "unit": ""
+        },
+        {
+          "label": "Identity matrix relation",
+          "tex": "AI=IA=A",
+          "unit": ""
+        },
+        {
+          "label": "Transpose of sum",
+          "tex": "(A+B)^T=A^T+B^T",
+          "unit": ""
+        },
+        {
+          "label": "Transpose of scalar multiple",
+          "tex": "(kA)^T=kA^T",
+          "unit": ""
+        },
+        {
+          "label": "Inverse of scalar multiple",
+          "tex": "(kA)^{-1}=\\frac1kA^{-1}\\quad(k\\ne0)",
+          "unit": ""
+        },
+        {
+          "label": "Inverse of transpose",
+          "tex": "(A^T)^{-1}=(A^{-1})^T",
+          "unit": ""
+        },
+        {
+          "label": "2×2 matrix inverse",
+          "tex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}^{-1}=\\frac1{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-04",
+      "formulas": [
+        {
+          "label": "2×2 determinant",
+          "tex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+          "unit": ""
+        },
+        {
+          "label": "3×3 determinant",
+          "tex": "\\begin{vmatrix}a&b&c\\\\d&e&f\\\\g&h&i\\end{vmatrix}=a(ei-fh)-b(di-fg)+c(dh-eg)",
+          "unit": ""
+        },
+        {
+          "label": "Cofactor",
+          "tex": "C_{ij}=(-1)^{i+j}M_{ij}",
+          "unit": ""
+        },
+        {
+          "label": "Adjoint-inverse relation",
+          "tex": "A^{-1}=\\frac{\\operatorname{adj}A}{|A|},\\qquad |A|\\ne0",
+          "unit": ""
+        },
+        {
+          "label": "Area of triangle",
+          "tex": "\\Delta=\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-matrix solution of linear equations",
+          "tex": "AX=B\\Rightarrow X=A^{-1}B\\quad\\text{when }A^{-1}\\text{ exists}",
+          "unit": ""
+        },
+        {
+          "label": "Minor of an element",
+          "tex": "M_{ij}=\\text{determinant obtained by deleting row }i\\text{ and column }j",
+          "unit": ""
+        },
+        {
+          "label": "Cofactor expansion",
+          "tex": "|A|=\\sum_j a_{ij}C_{ij}=\\sum_i a_{ij}C_{ij}",
+          "unit": ""
+        },
+        {
+          "label": "Adjoint transpose relation",
+          "tex": "\\operatorname{adj}(A)=(C_{ji})",
+          "unit": ""
+        },
+        {
+          "label": "Adjoint product relation",
+          "tex": "A\\operatorname{adj}(A)=\\operatorname{adj}(A)A=|A|I",
+          "unit": ""
+        },
+        {
+          "label": "Determinant of transpose",
+          "tex": "|A^T|=|A|",
+          "unit": ""
+        },
+        {
+          "label": "Determinant of product",
+          "tex": "|AB|=|A||B|",
+          "unit": ""
+        },
+        {
+          "label": "Determinant of inverse",
+          "tex": "|A^{-1}|=\\frac1{|A|}\\quad(|A|\\ne0)",
+          "unit": ""
+        },
+        {
+          "label": "Effect of interchanging two rows",
+          "tex": "R_i\\leftrightarrow R_j\\Rightarrow |A|\\mapsto-|A|",
+          "unit": ""
+        },
+        {
+          "label": "Equal/proportional rows",
+          "tex": "\\text{If two rows or columns are equal/proportional, }|A|=0",
+          "unit": ""
+        },
+        {
+          "label": "Cramer's rule for three variables",
+          "tex": "x=\\frac{\\Delta_1}{\\Delta},\\quad y=\\frac{\\Delta_2}{\\Delta},\\quad z=\\frac{\\Delta_3}{\\Delta}\\quad(\\Delta\\ne0)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-05",
+      "formulas": [
+        {
+          "label": "Continuity at a point",
+          "tex": "\\lim_{x\\to a}f(x)=f(a)",
+          "unit": ""
+        },
+        {
+          "label": "Chain rule",
+          "tex": "\\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Implicit differentiation",
+          "tex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\quad(F(x,y)=0,\\ F_y\\ne0)",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: sin",
+          "tex": "\\frac{d}{dx}\\sin^{-1}x=\\frac1{\\sqrt{1-x^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: cos",
+          "tex": "\\frac{d}{dx}\\cos^{-1}x=-\\frac1{\\sqrt{1-x^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: tan",
+          "tex": "\\frac{d}{dx}\\tan^{-1}x=\\frac1{1+x^2}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: cot",
+          "tex": "\\frac{d}{dx}\\cot^{-1}x=-\\frac1{1+x^2}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: sec",
+          "tex": "\\frac{d}{dx}\\sec^{-1}x=\\frac1{|x|\\sqrt{x^2-1}}",
+          "unit": ""
+        },
+        {
+          "label": "Inverse-trig derivative: csc",
+          "tex": "\\frac{d}{dx}\\csc^{-1}x=-\\frac1{|x|\\sqrt{x^2-1}}",
+          "unit": ""
+        },
+        {
+          "label": "Exponential and logarithmic derivatives",
+          "tex": "\\frac{d}{dx}e^x=e^x,\\quad \\frac{d}{dx}a^x=a^x\\ln a,\\quad \\frac{d}{dx}\\ln x=\\frac1x",
+          "unit": ""
+        },
+        {
+          "label": "Logarithmic differentiation",
+          "tex": "\\frac{d}{dx}\\ln y=\\frac1y\\frac{dy}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Parametric derivative",
+          "tex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+          "unit": ""
+        },
+        {
+          "label": "Second derivative",
+          "tex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
+          "unit": ""
+        },
+        {
+          "label": "Product rule",
+          "tex": "\\frac{d}{dx}(uv)=u\\frac{dv}{dx}+v\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Quotient rule",
+          "tex": "\\frac{d}{dx}\\left(\\frac uv\\right)=\\frac{v\\frac{du}{dx}-u\\frac{dv}{dx}}{v^2}",
+          "unit": ""
+        },
+        {
+          "label": "Power rule",
+          "tex": "\\frac{d}{dx}x^n=nx^{n-1}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sin x",
+          "tex": "\\frac{d}{dx}\\sin x=\\cos x",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cos x",
+          "tex": "\\frac{d}{dx}\\cos x=-\\sin x",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of tan x",
+          "tex": "\\frac{d}{dx}\\tan x=\\sec^2x",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cot x",
+          "tex": "\\frac{d}{dx}\\cot x=-\\csc^2x",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sec x",
+          "tex": "\\frac{d}{dx}\\sec x=\\sec x\\tan x",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of csc x",
+          "tex": "\\frac{d}{dx}\\csc x=-\\csc x\\cot x",
+          "unit": ""
+        },
+        {
+          "label": "Continuity from left and right",
+          "tex": "\\lim_{x\\to a^-}f(x)=\\lim_{x\\to a^+}f(x)=f(a)",
+          "unit": ""
+        },
+        {
+          "label": "Derivative as limit",
+          "tex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of log base a",
+          "tex": "\\frac{d}{dx}\\log_a x=\\frac1{x\\ln a}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of e^{u}",
+          "tex": "\\frac{d}{dx}e^u=e^u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of log u",
+          "tex": "\\frac{d}{dx}\\ln|u|=\\frac1u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sin u",
+          "tex": "\\frac{d}{dx}\\sin u=\\cos u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cos u",
+          "tex": "\\frac{d}{dx}\\cos u=-\\sin u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of tan u",
+          "tex": "\\frac{d}{dx}\\tan u=\\sec^2u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cot u",
+          "tex": "\\frac{d}{dx}\\cot u=-\\csc^2u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sec u",
+          "tex": "\\frac{d}{dx}\\sec u=\\sec u\\tan u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of csc u",
+          "tex": "\\frac{d}{dx}\\csc u=-\\csc u\\cot u\\frac{du}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sin inverse u",
+          "tex": "\\frac{d}{dx}\\sin^{-1}u=\\frac{u'}{\\sqrt{1-u^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cos inverse u",
+          "tex": "\\frac{d}{dx}\\cos^{-1}u=-\\frac{u'}{\\sqrt{1-u^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of tan inverse u",
+          "tex": "\\frac{d}{dx}\\tan^{-1}u=\\frac{u'}{1+u^2}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of cot inverse u",
+          "tex": "\\frac{d}{dx}\\cot^{-1}u=-\\frac{u'}{1+u^2}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of sec inverse u",
+          "tex": "\\frac{d}{dx}\\sec^{-1}u=\\frac{u'}{|u|\\sqrt{u^2-1}}",
+          "unit": ""
+        },
+        {
+          "label": "Derivative of csc inverse u",
+          "tex": "\\frac{d}{dx}\\csc^{-1}u=-\\frac{u'}{|u|\\sqrt{u^2-1}}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-06",
+      "formulas": [
+        {
+          "label": "Rate of change",
+          "tex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+          "unit": ""
+        },
+        {
+          "label": "Critical point",
+          "tex": "f'(x)=0\\quad\\text{or }f'(x)\\text{ is undefined}",
+          "unit": ""
+        },
+        {
+          "label": "Increasing function test",
+          "tex": "f'(x)>0\\Rightarrow f(x)\\text{ is increasing}",
+          "unit": ""
+        },
+        {
+          "label": "Decreasing function test",
+          "tex": "f'(x)<0\\Rightarrow f(x)\\text{ is decreasing}",
+          "unit": ""
+        },
+        {
+          "label": "Second derivative maximum test",
+          "tex": "f'(a)=0,\\ f''(a)<0\\Rightarrow\\text{local maximum at }x=a",
+          "unit": ""
+        },
+        {
+          "label": "Second derivative minimum test",
+          "tex": "f'(a)=0,\\ f''(a)>0\\Rightarrow\\text{local minimum at }x=a",
+          "unit": ""
+        },
+        {
+          "label": "Derivative-based tangent slope",
+          "tex": "m=\\frac{dy}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Tangent equation",
+          "tex": "y-y_1=f'(x_1)(x-x_1)",
+          "unit": ""
+        },
+        {
+          "label": "Normal equation",
+          "tex": "y-y_1=-\\frac1{f'(x_1)}(x-x_1)\\quad(f'(x_1)\\ne0)",
+          "unit": ""
+        },
+        {
+          "label": "Approximation",
+          "tex": "f(x+\\Delta x)\\approx f(x)+f'(x)\\Delta x",
+          "unit": ""
+        },
+        {
+          "label": "Differential approximation",
+          "tex": "dy=f'(x)\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Local maximum condition",
+          "tex": "f'(a)=0,\\ f''(a)<0\\Rightarrow f(a)\\text{ is a local maximum}",
+          "unit": ""
+        },
+        {
+          "label": "Local minimum condition",
+          "tex": "f'(a)=0,\\ f''(a)>0\\Rightarrow f(a)\\text{ is a local minimum}",
+          "unit": ""
+        },
+        {
+          "label": "First-derivative sign test for maximum",
+          "tex": "f'(x):+\\to-\\text{ at }x=a\\Rightarrow\\text{local maximum}",
+          "unit": ""
+        },
+        {
+          "label": "First-derivative sign test for minimum",
+          "tex": "f'(x):-\\to+\\text{ at }x=a\\Rightarrow\\text{local minimum}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-07",
+      "formulas": [
+        {
+          "label": "Basic integration relation",
+          "tex": "\\int f(x)\\,dx=F(x)+C\\quad\\text{if }F'(x)=f(x)",
+          "unit": ""
+        },
+        {
+          "label": "Substitution",
+          "tex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+          "unit": ""
+        },
+        {
+          "label": "Integration by parts",
+          "tex": "\\int u\\,dv=uv-\\int v\\,du",
+          "unit": ""
+        },
+        {
+          "label": "Definite integral",
+          "tex": "\\int_a^b f(x)\\,dx=F(b)-F(a)",
+          "unit": ""
+        },
+        {
+          "label": "Definite-integral symmetry",
+          "tex": "\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Even-function symmetry",
+          "tex": "\\int_{-a}^{a}f(x)\\,dx=2\\int_0^a f(x)\\,dx\\quad(f\\text{ even})",
+          "unit": ""
+        },
+        {
+          "label": "Odd-function symmetry",
+          "tex": "\\int_{-a}^{a}f(x)\\,dx=0\\quad(f\\text{ odd})",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/(x²+a²)",
+          "tex": "\\int\\frac{dx}{x^2+a^2}=\\frac1a\\tan^{-1}\\frac{x}{a}+C",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/(x²-a²)",
+          "tex": "\\int\\frac{dx}{x^2-a^2}=\\frac1{2a}\\ln\\left|\\frac{x-a}{x+a}\\right|+C",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/√(x²+a²)",
+          "tex": "\\int\\frac{dx}{\\sqrt{x^2+a^2}}=\\ln\\left|x+\\sqrt{x^2+a^2}\\right|+C",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/√(x²-a²)",
+          "tex": "\\int\\frac{dx}{\\sqrt{x^2-a^2}}=\\ln\\left|x+\\sqrt{x^2-a^2}\\right|+C",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/√(a²-x²)",
+          "tex": "\\int\\frac{dx}{\\sqrt{a^2-x^2}}=\\sin^{-1}\\frac{x}{a}+C",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/(ax²+bx+c)",
+          "tex": "\\int\\frac{dx}{ax^2+bx+c}\\quad\\text{(evaluate after completing the square / partial fractions)}",
+          "unit": ""
+        },
+        {
+          "label": "Standard integral: 1/√(ax²+bx+c)",
+          "tex": "\\int\\frac{dx}{\\sqrt{ax^2+bx+c}}\\quad\\text{(evaluate after completing the square)}",
+          "unit": ""
+        },
+        {
+          "label": "Linear-over-quadratic integral",
+          "tex": "\\int\\frac{px+q}{ax^2+bx+c}\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Linear-over-square-root-quadratic integral",
+          "tex": "\\int\\frac{px+q}{\\sqrt{ax^2+bx+c}}\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Square-root a²±x² integrals",
+          "tex": "\\int\\sqrt{a^2\\pm x^2}\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Square-root x²-a² integral",
+          "tex": "\\int\\sqrt{x^2-a^2}\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Square-root quadratic integral",
+          "tex": "\\int\\sqrt{ax^2+bx+c}\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Power integral",
+          "tex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C,\\quad n\\ne-1",
+          "unit": ""
+        },
+        {
+          "label": "Logarithmic integral",
+          "tex": "\\int\\frac{dx}{x}=\\ln|x|+C",
+          "unit": ""
+        },
+        {
+          "label": "Sine integral",
+          "tex": "\\int\\sin x\\,dx=-\\cos x+C",
+          "unit": ""
+        },
+        {
+          "label": "Cosine integral",
+          "tex": "\\int\\cos x\\,dx=\\sin x+C",
+          "unit": ""
+        },
+        {
+          "label": "Exponential integral",
+          "tex": "\\int e^x\\,dx=e^x+C",
+          "unit": ""
+        },
+        {
+          "label": "a^x integral",
+          "tex": "\\int a^x\\,dx=\\frac{a^x}{\\ln a}+C,\\quad a>0,\\ a\\ne1",
+          "unit": ""
+        },
+        {
+          "label": "Secant-squared integral",
+          "tex": "\\int\\sec^2x\\,dx=\\tan x+C",
+          "unit": ""
+        },
+        {
+          "label": "Cosecant-squared integral",
+          "tex": "\\int\\csc^2x\\,dx=-\\cot x+C",
+          "unit": ""
+        },
+        {
+          "label": "Secant-tangent integral",
+          "tex": "\\int\\sec x\\tan x\\,dx=\\sec x+C",
+          "unit": ""
+        },
+        {
+          "label": "Cosecant-cotangent integral",
+          "tex": "\\int\\csc x\\cot x\\,dx=-\\csc x+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/(a²-x²)",
+          "tex": "\\int\\frac{dx}{a^2-x^2}=\\frac1{2a}\\ln\\left|\\frac{a+x}{a-x}\\right|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/(a²+x²)",
+          "tex": "\\int\\frac{dx}{a^2+x^2}=\\frac1a\\tan^{-1}\\frac{x}{a}+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/√(x²+a²)",
+          "tex": "\\int\\frac{dx}{\\sqrt{x^2+a^2}}=\\ln|x+\\sqrt{x^2+a^2}|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/√(x²-a²)",
+          "tex": "\\int\\frac{dx}{\\sqrt{x^2-a^2}}=\\ln|x+\\sqrt{x^2-a^2}|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of tan x",
+          "tex": "\\int\\tan x\\,dx=\\ln|\\sec x|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of cot x",
+          "tex": "\\int\\cot x\\,dx=\\ln|\\sin x|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of sec x",
+          "tex": "\\int\\sec x\\,dx=\\ln|\\sec x+\\tan x|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of csc x",
+          "tex": "\\int\\csc x\\,dx=\\ln|\\csc x-\\cot x|+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/(a²+x²) with linear numerator",
+          "tex": "\\int\\frac{2x}{x^2+a^2}\\,dx=\\ln(x^2+a^2)+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of e^{ax}",
+          "tex": "\\int e^{ax}\\,dx=\\frac{e^{ax}}a+C\\quad(a\\ne0)",
+          "unit": ""
+        },
+        {
+          "label": "Integral of sin(ax+b)",
+          "tex": "\\int\\sin(ax+b)\\,dx=-\\frac1a\\cos(ax+b)+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of cos(ax+b)",
+          "tex": "\\int\\cos(ax+b)\\,dx=\\frac1a\\sin(ax+b)+C",
+          "unit": ""
+        },
+        {
+          "label": "Integral of 1/(ax+b)",
+          "tex": "\\int\\frac{dx}{ax+b}=\\frac1a\\ln|ax+b|+C",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-08",
+      "formulas": [
+        {
+          "label": "Area under a curve",
+          "tex": "A=\\int_a^b y\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Area between curves",
+          "tex": "A=\\int_a^b\\left[y_{\\text{upper}}-y_{\\text{lower}}\\right]dx",
+          "unit": ""
+        },
+        {
+          "label": "Area with respect to y",
+          "tex": "A=\\int_c^d\\left[x_{\\text{right}}-x_{\\text{left}}\\right]dy",
+          "unit": ""
+        },
+        {
+          "label": "Area between curve and x-axis",
+          "tex": "A=\\int_a^b|f(x)|\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Area between two curves",
+          "tex": "A=\\int_a^b|f(x)-g(x)|\\,dx",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-09",
+      "formulas": [
+        {
+          "label": "Separation of variables",
+          "tex": "\\frac{dy}{dx}=f(x)g(y)\\Rightarrow\\frac{dy}{g(y)}=f(x)\\,dx",
+          "unit": ""
+        },
+        {
+          "label": "Homogeneous differential equation substitution",
+          "tex": "\\frac{dy}{dx}=F\\!\\left(\\frac yx\\right),\\qquad y=vx",
+          "unit": ""
+        },
+        {
+          "label": "Linear differential equation",
+          "tex": "\\frac{dy}{dx}+Py=Q",
+          "unit": ""
+        },
+        {
+          "label": "Integrating factor",
+          "tex": "\\operatorname{IF}=e^{\\int P\\,dx}",
+          "unit": ""
+        },
+        {
+          "label": "Solution of linear DE",
+          "tex": "y\\,\\operatorname{IF}=\\int Q\\,\\operatorname{IF}\\,dx+C",
+          "unit": ""
+        },
+        {
+          "label": "Linear DE with x as dependent variable",
+          "tex": "\\frac{dx}{dy}+Px=Q",
+          "unit": ""
+        },
+        {
+          "label": "Integrating factor with y as independent variable",
+          "tex": "\\operatorname{IF}=e^{\\int P\\,dy}",
+          "unit": ""
+        },
+        {
+          "label": "General solution of separable DE",
+          "tex": "\\int\\frac{dy}{g(y)}=\\int f(x)\\,dx+C",
+          "unit": ""
+        },
+        {
+          "label": "Homogeneous substitution derivative",
+          "tex": "y=vx\\Rightarrow\\frac{dy}{dx}=v+x\\frac{dv}{dx}",
+          "unit": ""
+        },
+        {
+          "label": "Linear DE standard solution",
+          "tex": "y\\,e^{\\int Pdx}=\\int Qe^{\\int Pdx}\\,dx+C",
+          "unit": ""
+        },
+        {
+          "label": "Linear DE in x as dependent variable",
+          "tex": "x\\,e^{\\int Pdy}=\\int Qe^{\\int Pdy}\\,dy+C",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-10",
+      "formulas": [
+        {
+          "label": "Magnitude of vector",
+          "tex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2}",
+          "unit": ""
+        },
+        {
+          "label": "Unit vector",
+          "tex": "\\hat a=\\frac{\\vec a}{|\\vec a|}",
+          "unit": ""
+        },
+        {
+          "label": "Direction cosines",
+          "tex": "l=\\frac{a_x}{|\\vec a|},\\quad m=\\frac{a_y}{|\\vec a|},\\quad n=\\frac{a_z}{|\\vec a|},\\quad l^2+m^2+n^2=1",
+          "unit": ""
+        },
+        {
+          "label": "Section formula",
+          "tex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad\\text{for internal division in ratio }m:n",
+          "unit": ""
+        },
+        {
+          "label": "Dot product",
+          "tex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta",
+          "unit": ""
+        },
+        {
+          "label": "Dot product in components",
+          "tex": "\\vec a\\cdot\\vec b=a_xb_x+a_yb_y+a_zb_z",
+          "unit": ""
+        },
+        {
+          "label": "Cross-product magnitude",
+          "tex": "|\\vec a\\times\\vec b|=|\\vec a||\\vec b|\\sin\\theta",
+          "unit": ""
+        },
+        {
+          "label": "Cross product in components",
+          "tex": "\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
+          "unit": ""
+        },
+        {
+          "label": "Position vector of a point",
+          "tex": "\\vec r=x\\hat i+y\\hat j+z\\hat k",
+          "unit": ""
+        },
+        {
+          "label": "Distance between two points",
+          "tex": "|\\vec a-\\vec b|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}",
+          "unit": ""
+        },
+        {
+          "label": "Angle between vectors",
+          "tex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+          "unit": ""
+        },
+        {
+          "label": "Scalar projection",
+          "tex": "\\operatorname{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
+          "unit": ""
+        },
+        {
+          "label": "Vector projection",
+          "tex": "\\operatorname{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b",
+          "unit": ""
+        },
+        {
+          "label": "Area of parallelogram",
+          "tex": "A=|\\vec a\\times\\vec b|",
+          "unit": ""
+        },
+        {
+          "label": "Area of triangle",
+          "tex": "A=\\frac12|\\vec a\\times\\vec b|",
+          "unit": ""
+        },
+        {
+          "label": "Scalar triple product",
+          "tex": "[\\vec a\\ \\vec b\\ \\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)",
+          "unit": ""
+        },
+        {
+          "label": "Coplanarity condition",
+          "tex": "\\vec a\\cdot(\\vec b\\times\\vec c)=0",
+          "unit": ""
+        },
+        {
+          "label": "Vector triple product",
+          "tex": "\\vec a\\times(\\vec b\\times\\vec c)=\\vec b(\\vec a\\cdot\\vec c)-\\vec c(\\vec a\\cdot\\vec b)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-11",
+      "formulas": [
+        {
+          "label": "Line in vector form",
+          "tex": "\\vec r=\\vec a+\\lambda\\vec b",
+          "unit": ""
+        },
+        {
+          "label": "Line in Cartesian form",
+          "tex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
+          "unit": ""
+        },
+        {
+          "label": "Direction ratios of line joining two points",
+          "tex": "(a,b,c)=(x_2-x_1,y_2-y_1,z_2-z_1)",
+          "unit": ""
+        },
+        {
+          "label": "Angle between two lines",
+          "tex": "\\cos\\theta=\\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Shortest distance between skew lines",
+          "tex": "d=\\frac{|(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)|}{|\\vec b_1\\times\\vec b_2|}",
+          "unit": ""
+        },
+        {
+          "label": "Line through two points in vector form",
+          "tex": "\\vec r=\\vec a+\\lambda(\\vec b-\\vec a)",
+          "unit": ""
+        },
+        {
+          "label": "Angle between two lines using direction vectors",
+          "tex": "\\cos\\theta=\\frac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1||\\vec b_2|}",
+          "unit": ""
+        },
+        {
+          "label": "Equation of plane in vector form",
+          "tex": "\\vec r\\cdot\\vec n=d",
+          "unit": ""
+        },
+        {
+          "label": "Plane through a point",
+          "tex": "(\\vec r-\\vec a)\\cdot\\vec n=0",
+          "unit": ""
+        },
+        {
+          "label": "Plane in Cartesian form",
+          "tex": "ax+by+cz=d",
+          "unit": ""
+        },
+        {
+          "label": "Angle between line and plane",
+          "tex": "\\sin\\theta=\\frac{|a l+b m+c n|}{\\sqrt{a^2+b^2+c^2}\\sqrt{l^2+m^2+n^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Distance of point from plane",
+          "tex": "d=\\frac{|ax_1+by_1+cz_1-d|}{\\sqrt{a^2+b^2+c^2}}",
+          "unit": ""
+        },
+        {
+          "label": "Distance between parallel planes",
+          "tex": "d=\\frac{|d_1-d_2|}{\\sqrt{a^2+b^2+c^2}}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-12",
+      "formulas": [
+        {
+          "label": "Objective function",
+          "tex": "Z=ax+by",
+          "unit": ""
+        },
+        {
+          "label": "Linear constraint",
+          "tex": "a_1x+b_1y\\le c_1\\quad\\text{or}\\quad a_1x+b_1y\\ge c_1",
+          "unit": ""
+        },
+        {
+          "label": "Non-negativity constraints",
+          "tex": "x\\ge0,\\quad y\\ge0",
+          "unit": ""
+        },
+        {
+          "label": "Feasible region",
+          "tex": "\\{(x,y):\\text{all constraints are simultaneously satisfied}\\}",
+          "unit": ""
+        },
+        {
+          "label": "Corner-point principle",
+          "tex": "Z_{\\max/\\min}\\text{ occurs at a corner point of the feasible region (when an optimum exists)}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c12-math-13",
+      "formulas": [
+        {
+          "label": "Conditional probability",
+          "tex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)},\\quad P(B)>0",
+          "unit": ""
+        },
+        {
+          "label": "Multiplication theorem",
+          "tex": "P(A\\cap B)=P(A)P(B\\mid A)=P(B)P(A\\mid B)",
+          "unit": ""
+        },
+        {
+          "label": "Independent events",
+          "tex": "P(A\\cap B)=P(A)P(B)",
+          "unit": ""
+        },
+        {
+          "label": "Total probability",
+          "tex": "P(A)=\\sum_i P(B_i)P(A\\mid B_i)",
+          "unit": ""
+        },
+        {
+          "label": "Bayes' theorem",
+          "tex": "P(B_i\\mid A)=\\frac{P(B_i)P(A\\mid B_i)}{\\sum_jP(B_j)P(A\\mid B_j)}",
+          "unit": ""
+        },
+        {
+          "label": "Complementary probability",
+          "tex": "P(A')=1-P(A)",
+          "unit": ""
+        },
+        {
+          "label": "Conditional probability via joint probability",
+          "tex": "P(A\\cap B)=P(A)P(B\\mid A)",
+          "unit": ""
+        },
+        {
+          "label": "Mean of a discrete random variable",
+          "tex": "E(X)=\\sum_i x_i p_i",
+          "unit": ""
+        },
+        {
+          "label": "Variance of a discrete random variable",
+          "tex": "\\operatorname{Var}(X)=E(X^2)-[E(X)]^2",
+          "unit": ""
+        },
+        {
+          "label": "Second moment",
+          "tex": "E(X^2)=\\sum_i x_i^2p_i",
+          "unit": ""
+        },
+        {
+          "label": "Standard deviation",
+          "tex": "\\sigma=\\sqrt{\\operatorname{Var}(X)}",
+          "unit": ""
+        },
+        {
+          "label": "Binomial probability distribution",
+          "tex": "P(X=r)=\\binom nr p^r q^{n-r},\\quad q=1-p",
+          "unit": ""
+        },
+        {
+          "label": "Binomial mean",
+          "tex": "E(X)=np",
+          "unit": ""
+        },
+        {
+          "label": "Binomial variance",
+          "tex": "\\operatorname{Var}(X)=npq",
+          "unit": ""
+        },
+        {
+          "label": "Binomial standard deviation",
+          "tex": "\\sigma=\\sqrt{npq}",
+          "unit": ""
+        }
+      ]
+    }
+  ],
+  "certification_note": "Final certification based on the CBSE Class XII Mathematics 041 2026-27 syllabus boundary, with the current prescribed topic set retained. Practical/internal-assessment material is excluded.",
+  "subject_name": "Mathematics",
+  "subject_code": "041",
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "authority": "CBSE Class XII Mathematics (041), 2026-27 official curriculum",
+    "source_file": "c12-math.json",
+    "corrections": [
+      "Expanded the uploaded formula set across all 13 chapter records.",
+      "Added missing core relations for inverse functions, inverse trigonometric functions, matrices and determinants.",
+      "Expanded differentiation, applications of derivatives, integration, area, differential equations and vector/3-D geometry coverage.",
+      "Added probability formulas for random variables and the binomial distribution.",
+      "Retained the uploaded chapter organization and terminology; no new chapters were introduced.",
+      "Excluded internal-assessment material."
+    ],
+    "validation": [
+      "13/13 chapters represented.",
+      "No duplicate labels within a chapter.",
+      "No duplicate TeX expressions within a chapter.",
+      "All labels and TeX expressions are non-empty."
+    ]
+  }
+}
